@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Jekyll!"
+title: "PLAID preprint submitted!"
 date: 2025-05-30T00:00:01+01:00
 categories:
   - blog
@@ -8,6 +8,6 @@ tags:
 classes: wide
 ---
 
-Check out the [PLAID-paper] recently submitted to arXiv!
+Check out the [PLAID preprint] recently submitted to arXiv!
 
-[PLAID-paper]: https://arxiv.org/abs/2505.02974
+[PLAID preprint]: https://arxiv.org/abs/2505.02974
