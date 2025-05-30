@@ -1,5 +1,5 @@
 ---
-title: "PLAID preprint submitted!"
+title: "PLAID release"
 date: 2025-05-30T08:00:01+01:00
 categories:
   - blog
