@@ -1,6 +1,6 @@
 ---
 title: "PLAID preprint submitted!"
-date: 2025-05-30T08:00:00+01:00
+date: 2025-05-01T08:00:01+01:00
 categories:
   - blog
 tags:
