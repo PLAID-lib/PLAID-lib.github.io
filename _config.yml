@@ -56,7 +56,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "PLAID"
+  # name   : "PLAID"
   avatar : "assets/images/PLAID-logo.png"
   bio    : "Physics-Learning AI Datamodel"
   links:
