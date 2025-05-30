@@ -13,14 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: PLAID
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+  PLAID (Physics-Learning AI Datamodel) is a flexible and extensible framework for representing and sharing datasets of physics simulations
+# twitter_username: username
+github_username: PLAID-lib
 minimal_mistakes_skin: default
 search: true
 
@@ -58,34 +56,34 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "https://github.com/PLAID-lib/plaid/blob/main/docs/source/images/plaid.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "PLAID"
+  avatar : "assets/images/PLAID-logo.png"
+  bio    : "Physics-Learning AI Datamodel"
   links:
-    - label: "Website"
+    - label: "arXiv paper"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://arxiv.org/abs/2505.02974"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/PLAID-lib"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/"
 
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+# footer:
+#   links:
+#     - label: "Twitter"
+#       icon: "fab fa-fw fa-twitter-square"
+#       url: "https://twitter.com/"
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/"
+#     - label: "Instagram"
+#       icon: "fab fa-fw fa-instagram"
+#       url: "https://instagram.com/"
 
 defaults:
   # _posts
