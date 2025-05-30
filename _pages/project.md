@@ -17,6 +17,6 @@ Each dataset comes with a visualization application, hosted as a Hugging Face sp
 <iframe
 	src="https://plaid-datasets-vki-ls59-visu.hf.space"
 	frameborder="0"
-	width="1000"
+	width="1300"
 	height="700"
 ></iframe>
