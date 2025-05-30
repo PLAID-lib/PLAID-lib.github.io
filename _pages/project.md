@@ -13,10 +13,10 @@ The data model and library have initially been developped at SafranTech, the res
 
 At the heart of PLAID is the seemless exchange of dataset for streamlined collaboration. Six interactive benchmarks are provided in a [HuggingFace community](https://huggingface.co/PLAIDcompetitions). Corresponding datasets are provided in [HuggingFace](https://huggingface.co/PLAID-datasets) as well, and in a [Zenodo community](https://zenodo.org/communities/plaid_datasets).
 
-Each dataset comes with a visualization application, hosted as a Hugging Face space:
+Each dataset comes with a visualization application, hosted as a Hugging Face space, for example:
 <iframe
 	src="https://plaid-datasets-vki-ls59-visu.hf.space"
 	frameborder="0"
-	width="1300"
+	width="1000"
 	height="700"
 ></iframe>
