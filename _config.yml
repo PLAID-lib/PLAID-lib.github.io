@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 github_username: PLAID-lib
 minimal_mistakes_skin: dark
 search: true
-favicon: assets/images/PLAID-logo.png
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
