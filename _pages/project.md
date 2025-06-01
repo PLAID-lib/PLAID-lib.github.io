@@ -5,9 +5,10 @@ classes: wide
 ---
 
 <div align="center">
-<img src="../assets/images/PLAID-large-logo.png">
+<img src="../assets/images/PLAID-large-logo.png" width="300">
+</div>
 
-| | |
+
 | --- | --- |
 | Testing | [![CI Status](https://github.com/PLAID-lib/plaid/actions/workflows/testing.yml/badge.svg)](https://github.com/PLAID-lib/plaid/actions/workflows/testing.yml) [![Documentation Status](https://readthedocs.org/projects/plaid-lib/badge/?version=latest)](https://plaid-lib.readthedocs.io/en/latest/?badge=latest) [![Coverage](https://codecov.io/gh/plaid-lib/plaid/branch/main/graph/badge.svg)](https://app.codecov.io/gh/plaid-lib/plaid/tree/main?search=&displayType=list) ![Last Commit](https://img.shields.io/github/last-commit/PLAID-lib/plaid/main) |
 | Package | [![PyPI Latest Release](https://img.shields.io/pypi/v/pyplaid.svg)](https://pypi.org/project/pyplaid/)[![Conda Latest Release](https://anaconda.org/conda-forge/plaid/badges/version.svg)](https://anaconda.org/conda-forge/plaid) ![Platform](https://img.shields.io/badge/platform-any-blue)![Python Version](https://img.shields.io/pypi/pyversions/pyplaid) [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/plaid.svg?label=Conda%20downloads)](https://anaconda.org/conda-forge/plaid) |
