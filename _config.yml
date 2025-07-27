@@ -68,7 +68,7 @@ author:
     #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/PLAID-lib"
+      url: "https://github.com/PLAID-lib/plaid"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
