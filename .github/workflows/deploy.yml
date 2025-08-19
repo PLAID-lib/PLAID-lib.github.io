@@ -9,11 +9,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
-    name: Build site
+  build_and_deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -26,52 +25,17 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v6
 
-      - name: Install the project
-        run: uv sync --all-extras --dev --index https://pypi.org/simple
+      - name: Install the project (use PyPI)
+        env:
+          UV_INDEX_URL: https://pypi.org/simple
+          UV_EXTRA_INDEX_URL: ""
+        run: uv sync --all-extras --dev
 
       - name: Build site with MkDocs
         run: uv run mkdocs build
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
 
-      - name: Upload site artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: mkdocs-site
-          path: site
-          if-no-files-found: error
-          retention-days: 14
-
-  # preview:
-  #   needs: build
-  #   runs-on: ubuntu-latest
-  #   permissions:
-  #     contents: read
-  #     pages: write
-  #     id-token: write
-  #   environment:
-  #     name: preview
-  #     url: ${{ steps.deployment.outputs.page_url }}
-  #   steps:
-  #     - id: deployment
-  #       uses: actions/deploy-pages@v4
-
-  deploy:
-    name: Deploy to Pages
-    needs: build
-    runs-on: ubuntu-latest
-    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
-    permissions:
-      contents: write
-    steps:
-      - name: Download site artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: mkdocs-site
-          path: site
-
-      - name: Publish to gh-pages
+      - name: Deploy to gh-pages
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
         uses: oprypin/push-to-gh-pages@v3
         with:
           publish_dir: site
