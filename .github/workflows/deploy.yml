@@ -1,9 +1,12 @@
 name: Deploy MkDocs to GitHub Pages
 
 on:
-  push: master
+  push:
+    branches: [ master ]
   pull_request:
-    types: [opened, edited, synchronize, reopened]
+    branches: [ master ]
+    types: [opened, synchronize, reopened, edited]
+  workflow_dispatch:
 
 jobs:
   build:
