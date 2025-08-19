@@ -46,6 +46,10 @@ jobs:
   preview:
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     environment:
       name: preview
       url: ${{ steps.deployment.outputs.page_url }}
