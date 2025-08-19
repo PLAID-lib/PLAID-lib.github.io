@@ -1,17 +1,18 @@
-# Welcome to MkDocs
+# Physics-Learning AI Datamodel
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Introduction 
 
-## Commands
+PLAID (Physics-Learning AI Datamodel) is a flexible and extensible framework for representing and sharing datasets of physics simulations. PLAID defines a unified standard for describing simulation data and is accompanied by a library for creating, reading, and manipulating complex datasets across a wide range of physical use cases.
+The data model and library have initially been developped at SafranTech, the research center of [Safran group](https://www.safran-group.com/).
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Open source
 
-## Project layout
+The open source project is hosted on GitHub under the [PLAID-lib](https://github.com/PLAID-lib) organization. The project currently contains three librairies:
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [plaid](https://github.com/PLAID-lib/plaid) is the core library of the PLAID project.
+- [plaid-bridges](https://github.com/PLAID-lib/plaid-bridges): provides integrations into machine learning frameworks such as PyTorch Geometric.
+- [plaid-ops](https://github.com/PLAID-lib/plaid-bridges): a collection of standardized operations on PLAID samples and datasets.
+
+## Paper
+
+Check out the [PLAID preprint](https://arxiv.org/abs/2505.02974) recently submitted to arXiv!
