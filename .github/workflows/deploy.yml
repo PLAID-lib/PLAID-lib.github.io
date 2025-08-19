@@ -27,6 +27,8 @@ jobs:
 
       - name: Install the project
         env:
+          UV_INDEX_URL: https://pypi.org/simple
+          UV_EXTRA_INDEX_URL: ""
         run: uv sync --all-extras --dev
 
       - name: Build site with MkDocs
