@@ -2,24 +2,22 @@ name: Deploy MkDocs to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
   pull_request:
-    branches:
-      - main
-
-permissions:
-  contents: write
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
-  build-deploy:
+  build:
+    name: Build site
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: read
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: "Set up Python"
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version-file: ".python-version"
@@ -31,12 +29,32 @@ jobs:
         run: uv sync --locked --all-extras --dev
 
       - name: Build site with MkDocs
-        run: |
-          uv run mkdocs build
+        run: uv run mkdocs build --strict
 
-      - name: Deploy to GitHub Pages
+      - name: Upload site artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mkdocs-site
+          path: site
+          if-no-files-found: error
+          retention-days: 14
+
+  deploy:
+    name: Deploy to Pages
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    permissions:
+      contents: write
+    steps:
+      - name: Download site artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: mkdocs-site
+          path: site
+
+      - name: Publish to gh-pages
         uses: oprypin/push-to-gh-pages@v3
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         with:
           publish_dir: site
         env:
