@@ -27,17 +27,17 @@ jobs:
 
       - name: Install the project (use PyPI)
         env:
-          UV_INDEX_URL: https://pypi.org/simple
-          UV_EXTRA_INDEX_URL: ""
         run: uv sync --all-extras --dev
 
       - name: Build site with MkDocs
         run: uv run mkdocs build
 
-      - name: Deploy to gh-pages
-        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
-        uses: oprypin/push-to-gh-pages@v3
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          publish_dir: site
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          path: site
+
+      - name: Deploy (only on push to master)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        id: deploy
+        uses: actions/deploy-pages@v4
