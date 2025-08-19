@@ -1,0 +1,61 @@
+site_name: PLAID | Physics-Learning AI Datamodel
+
+theme:
+  name: material
+  font:
+    text: PT Sans
+    code: Fira Mono
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tracking
+    - navigation.path
+    - navigation.footer
+    - navigation.top
+    # - navigation.indexes
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - content.code.copy
+    - content.code.annotate
+    # - toc.integrate
+    # - toc.follow
+    - search.highlight
+    - search.share
+    - search.suggest
+    - announce.dismiss
+  palette:
+    - media: '(prefers-color-scheme)'
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: teal
+      accent: pink
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: deep-purple
+      accent: pink
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+plugins:
+- search
+- include-markdown
+- section-index
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+
+nav:
+  - Project: index.md
+  - Datasets: datasets/
+  - Benchmarks: benchmarks/
+  - Examples: examples/
