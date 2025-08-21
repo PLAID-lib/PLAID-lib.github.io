@@ -1,8 +1,8 @@
 # Physics-Learning AI Datamodel
 
-<p style="text-align:center;">
+<!-- <p style="text-align:center;">
   <img src="../assets/images/PLAID-large-logo.png" alt="logo" title="Logo" style="width:40%;"/>
-</p>
+</p> -->
 
 ## Introduction
 
