@@ -2,6 +2,7 @@ site_name: Physics-Learning AI Datamodel
 
 theme:
   name: material
+  custom_dir: overrides
   font:
     text: PT Sans
     code: Fira Mono
