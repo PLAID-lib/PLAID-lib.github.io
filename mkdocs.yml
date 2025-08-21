@@ -5,6 +5,8 @@ theme:
   font:
     text: PT Sans
     code: Fira Mono
+  logo: assets/images/PLAID-large-logo.png
+  favicon: assets/images/PLAID-logo.png
   features:
     - navigation.instant
     - navigation.instant.prefetch
@@ -56,7 +58,7 @@ markdown_extensions:
 
 nav:
   - Project: index.md
-  - Community: 
+  - Community:
       - Datasets: datasets.md
       - Benchmarks: benchmarks.md
   - Examples: examples.md
