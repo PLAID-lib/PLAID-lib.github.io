@@ -146,7 +146,7 @@ are public, no benchmark application is provided for this dataset.
   </div>
 
   <div class="card">
-    <p><img src="../assets/images/hf-logo.svg" alt="HF" style="width:30px; vertical-align:middle; margin-right:4px;"><strong>AirfRANS (clipped)</strong></p>
+    <p><strong>AirfRANS (clipped)</strong></p>
     <img src="https://i.ibb.co/0C1bQhK/airfrans.png" alt="Dataset image" class="card-top-img">
     <div class="card-badges">
       <a href="https://huggingface.co/datasets/PLAID-datasets/AirfRANS_clipped">
@@ -163,7 +163,7 @@ are public, no benchmark application is provided for this dataset.
   </div>
 
   <div class="card">
-    <p><img src="../assets/images/hf-logo.svg" alt="HF" style="width:30px; vertical-align:middle; margin-right:4px;"><strong>AirfRANS (remeshed)</strong></p>
+    <p><strong>AirfRANS (remeshed)</strong></p>
     <img src="https://i.ibb.co/0C1bQhK/airfrans.png" alt="Dataset image" class="card-top-img">
     <div class="card-badges">
       <a href="https://huggingface.co/datasets/PLAID-datasets/AirfRANS_remeshed">
