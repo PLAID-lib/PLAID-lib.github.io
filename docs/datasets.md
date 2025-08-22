@@ -155,10 +155,6 @@ are public, no benchmark application is provided for this dataset.
       <a href="https://doi.org/10.5281/zenodo.14840377">
         <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.14840377.svg" alt="Zenodo">
       </a>
-    <span style="margin-right:4px; vertical-align:middle;">Visualization appli:</span>
-    <a href="https://huggingface.co/spaces/PLAID-datasets/AirfRANS_clipped_visu">
-      <img src="https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm-dark.svg"/>
-    </a>
     </div>
   </div>
 
