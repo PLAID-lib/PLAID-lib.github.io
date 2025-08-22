@@ -1,5 +1,3 @@
-# PLAID Benchmarks
-
 <img src="../assets/images/plaid_benchmarks.png" class="align-center" width="60%"
 alt="PLAID Benchmarks" />
 
@@ -34,9 +32,9 @@ $$
 
 <table style="width:99%;">
 <colgroup>
-<col style="width: 19%" />
-<col style="width: 48%" />
-<col style="width: 31%" />
+<col style="width: 18%" />
+<col style="width: 52%" />
+<col style="width: 28%" />
 </colgroup>
 <thead>
 <tr class="header">

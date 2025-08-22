@@ -51,6 +51,7 @@ plugins:
 - section-index
 - bibtex:
     bib_file: "docs/refs.bib"
+    style: "unsrt"
     cite_inline: false
 
 markdown_extensions:
