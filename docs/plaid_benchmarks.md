@@ -1,6 +1,6 @@
 # PLAID Benchmarks
 
-<img src="assets/images/plaid_benchmarks.png" class="align-center" width="60%"
+<img src="docs/assets/images/plaid_benchmarks.png" class="align-center" width="60%"
 alt="PLAID Benchmarks" />
 
 We provide interactive benchmarks hosted on Hugging Face, in which
@@ -17,13 +17,6 @@ $\{ \mathbf{U}^i_{\rm ref} \}_{i=1}^{n_\star}$ and
 $\{ \mathbf{U}^i_{\rm pred} \}_{i=1}^{n_\star}$ be the test observations
 and predictions, respectively, of a given field of interest. The
 relative RMSE is defined as
-
-Inline: $E = mc^2$
-
-Block:
-$$
-\int_0^1 x^2 dx = \frac{1}{3}
-$$
 
 $$
 \mathrm{RRMSE}_f(\mathbf{U}_{\rm ref}, \mathbf{U}_{\rm pred}) = \left( \frac{1}{n_\star}\sum_{i=1}^{n_\star} \frac{\frac{1}{N^i}\|\mathbf{U}^i_{\rm ref} - \mathbf{U}^i_{\rm pred}\|_2^2}{\|\mathbf{U}^i_{\rm ref}\|_\infty^2} \right)^{1/2},
