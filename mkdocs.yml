@@ -51,6 +51,7 @@ plugins:
 - section-index
 - bibtex:
     bib_file: "docs/refs.bib"
+    cite_inline: false
 
 markdown_extensions:
   - admonition
