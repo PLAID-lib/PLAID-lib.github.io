@@ -187,3 +187,6 @@ Note
 
 </div>
 
+## References
+
+[^bib]
