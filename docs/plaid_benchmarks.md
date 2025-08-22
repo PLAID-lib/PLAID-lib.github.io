@@ -1,6 +1,6 @@
 # PLAID Benchmarks
 
-<img src="docs/assets/images/plaid_benchmarks.png" class="align-center" width="60%"
+<img src="../assets/images/plaid_benchmarks.png" class="align-center" width="60%"
 alt="PLAID Benchmarks" />
 
 We provide interactive benchmarks hosted on Hugging Face, in which
