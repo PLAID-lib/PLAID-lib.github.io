@@ -50,7 +50,7 @@ plugins:
 - include-markdown
 - section-index
 - bibtex:
-    bib_file: "refs.bib"
+    bib_file: "docs/refs.bib"
 
 markdown_extensions:
   - admonition
