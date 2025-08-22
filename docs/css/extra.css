@@ -1,3 +1,43 @@
-.md-content {
-    max-width: 1200px; /* default ~780px */
+/* Each card flex layout */
+.grid.cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* horizontal center */
+    justify-content: flex-start;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Top image in card */
+.card-top-img {
+    max-width: 100%;       /* scale to fit card width */
+    height: auto;
+    margin-bottom: 0.5em;
+    border-radius: 4px;    /* optional: rounded corners */
+}
+
+/* Horizontal badges */
+.card-badges {
+    display: flex;
+    gap: 0.4em;            /* slightly reduce spacing */
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+
+/* Reduce badge size slightly */
+.card-badges img {
+    height: 24px;          /* slightly smaller than before */
+    object-fit: contain;
+}
+
+/* Center the first column of all tables */
+table td:first-child,
+table th:first-child {
+    text-align: center;
+}
+
+/* Optional: center badges inside first column */
+table td:first-child img {
+    vertical-align: middle;
 }

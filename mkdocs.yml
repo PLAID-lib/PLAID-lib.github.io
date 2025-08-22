@@ -44,8 +44,6 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
-extra_css:
-  - css/extra.css
 
 plugins:
 - search
@@ -53,8 +51,7 @@ plugins:
 - section-index
 - bibtex:
     bib_file: "docs/refs.bib"
-    style: "unsrt"
-    cite_inline: false
+    enable_inline_citations: false
 
 markdown_extensions:
   - admonition
@@ -101,10 +98,12 @@ markdown_extensions:
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
+extra_css:
+  - css/extra.css
+
 nav:
   - Project: index.md
   - Community:
       - Datasets: datasets.md
       - Benchmarks: benchmarks.md
   - Examples: examples.md
-  - Benchmarks: plaid_benchmarks.md
