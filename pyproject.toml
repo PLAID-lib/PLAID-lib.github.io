@@ -17,6 +17,7 @@ dependencies = [
     "mkdocs-material>=9.6.17",
     "mkdocs-section-index>=0.3.10",
     "mkdocstrings[python]>=0.30.0",
+    "mkdocs-bibtex>=0.3.0",
 ]
 
 [build-system]
