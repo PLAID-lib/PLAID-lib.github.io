@@ -32,9 +32,9 @@ $$
 
 <table style="width:99%;">
 <colgroup>
-<col style="width: 18%" />
-<col style="width: 52%" />
-<col style="width: 28%" />
+<col style="width: 16%" />
+<col style="width: 56%" />
+<col style="width: 26%" />
 </colgroup>
 <thead>
 <tr class="header">
