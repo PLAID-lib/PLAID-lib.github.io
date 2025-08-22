@@ -7,8 +7,8 @@ We provide interactive benchmarks hosted on Hugging Face, in which
 anyone can test their own SciML method. These benchmarks involve
 regression problems posed on datasets provided in PLAID format. Some of
 these datasets have been introduced in the MMGP (Mesh Morphing Gaussian
-Process) paper `casenave2023mmgp`, and the PLAID paper
-`casenave2025plaid`. A ranking is automatically updated based on a score
+Process) paper @casenave2023mmgp, and the PLAID paper
+@casenave2025plaid. A ranking is automatically updated based on a score
 computed on the testing set of each dataset. For the benchmarks to be
 meaningful, the outputs on the testing sets are not made public.
 
@@ -18,13 +18,24 @@ $\{ \mathbf{U}^i_{\rm pred} \}_{i=1}^{n_\star}$ be the test observations
 and predictions, respectively, of a given field of interest. The
 relative RMSE is defined as
 
-$$\mathrm{RRMSE}_f(\mathbf{U}_{\rm ref}, \mathbf{U}_{\rm pred}) = \left( \frac{1}{n_\star}\sum_{i=1}^{n_\star} \frac{\frac{1}{N^i}\|\mathbf{U}^i_{\rm ref} - \mathbf{U}^i_{\rm pred}\|_2^2}{\|\mathbf{U}^i_{\rm ref}\|_\infty^2} \right)^{1/2},$$
+Inline: $E = mc^2$
+
+Block:
+$$
+\int_0^1 x^2 dx = \frac{1}{3}
+$$
+
+$$
+\mathrm{RRMSE}_f(\mathbf{U}_{\rm ref}, \mathbf{U}_{\rm pred}) = \left( \frac{1}{n_\star}\sum_{i=1}^{n_\star} \frac{\frac{1}{N^i}\|\mathbf{U}^i_{\rm ref} - \mathbf{U}^i_{\rm pred}\|_2^2}{\|\mathbf{U}^i_{\rm ref}\|_\infty^2} \right)^{1/2},
+$$
 
 where $N^i$ is the number of nodes in the mesh $i$, and
 $\max(\mathbf{U}^i_{\rm ref})$ is the maximum entry in the vector
 $\mathbf{U}^i_{\rm ref}$. Similarly for scalar outputs:
 
-$$\mathrm{RRMSE}_s(\mathbf{w}_{\rm ref}, \mathbf{w}_{\rm pred}) = \left( \frac{1}{n_\star} \sum_{i=1}^{n_\star} \frac{|w^i_{\rm ref} - w_{\rm pred}^i|^2}{|w^i_{\rm ref}|^2} \right)^{1/2}.$$
+$$
+\mathrm{RRMSE}_s(\mathbf{w}_{\rm ref}, \mathbf{w}_{\rm pred}) = \left( \frac{1}{n_\star} \sum_{i=1}^{n_\star} \frac{|w^i_{\rm ref} - w_{\rm pred}^i|^2}{|w^i_{\rm ref}|^2} \right)^{1/2}.
+$$
 
 ## Resources
 
@@ -188,5 +199,4 @@ Note
 </div>
 
 ## References
-
-[^bib]
+```bibtex
