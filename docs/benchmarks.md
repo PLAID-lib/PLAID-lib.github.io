@@ -90,15 +90,14 @@ As of August 5, 2025
 
 | <div style="text-align:center;"><p>Benchmark<p></div> | <div style="text-align:center;"><p>MGN<p></div>    | <div style="text-align:center;"><p>MMGP<p></div>   | <div style="text-align:center;"><p>Vi-Transf.<p></div> | <div style="text-align:center;"><p>Augur<p></div>  | <div style="text-align:center;"><p>FNO<p></div>    | <div style="text-align:center;"><p>MARIO<p></div>  |
 |------------------------------------------------|--------|--------|------------|--------|--------|--------|
-| <span class="title-ref">Tensile2d</span>       | 0.0673 | 0.0026 | 0.0116     | 0.0154 | 0.0123 | 0.0038 |
-| <span class="title-ref">2D_MultiScHypEl</span> | 0.0437 | ❌     | 0.0325     | 0.0232 | 0.0302 | 0.0573 |
-| <span class="title-ref">2D_ElPlDynamics</span> | 0.1202 | ❌     | 0.0227     | 0.0346 | 0.0215 | 0.0319 |
-| <span class="title-ref">Rotor37</span>         | 0.0074 | 0.0014 | 0.0029     | 0.0033 | 0.0313 | 0.0017 |
-| <span class="title-ref">2D_profile</span>      | 0.0593 | 0.0365 | 0.0312     | 0.0425 | 0.0972 | 0.0307 |
-| <span class="title-ref">VKI-LS59</span>        | 0.0684 | 0.0312 | 0.0193     | 0.0267 | 0.0215 | 0.0124 |
+| <span class="title-ref">Tensile2d</span>       | 0.0673  |  **0.0026**  |   0.0116     |  0.0154   |  0.0123  |  *0.0038*  |
+| <span class="title-ref">2D_MultiScHypEl</span> | 0.0437  |  ❌  |   0.0325     |  **0.0232**   |   *0.0302*  |  0.0573  |
+| <span class="title-ref">2D_ElPlDynamics</span> | 0.1202  |  ❌  |   *0.0227*     |  0.0346    |  **0.0215**  |  0.0319  |
+| <span class="title-ref">Rotor37</span>         | 0.0074  |  **0.0014**  |   0.0029     |  0.0033   |   0.0313  |  *0.0017*  |
+| <span class="title-ref">2D_profile</span>      | 0.0593  |  0.0365  |   *0.0312*     |  0.0425   |  0.0972  |  **0.0307**  |
+| <span class="title-ref">VKI-LS59</span>        | 0.0684  |  0.0312  |   *0.0193*     |  0.0267    |   0.0215  |  **0.0124**  |
 
 ❌: Not compatible with topology variation
-
 
 
 !!! note
