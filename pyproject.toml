@@ -4,7 +4,8 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
-    { name = "Brian Staber", email = "brian.staber@gmail.com" }
+    { name = "Brian Staber", email = "brian.staber@gmail.com" },
+    { name = "Fabien Casenave", email = "fabien.casenave@gmail.com" },
 ]
 requires-python = ">=3.10,<3.13"
 dependencies = [
@@ -17,7 +18,8 @@ dependencies = [
     "mkdocs-material>=9.6.17",
     "mkdocs-section-index>=0.3.10",
     "mkdocstrings[python]>=0.30.0",
-    "mkdocs-bibtex>=0.3.0",
+    "mkdocs-bibtex>=0.4.4",
+    "marimo>=0.15.0",
 ]
 
 [build-system]

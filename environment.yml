@@ -1,0 +1,22 @@
+name: PLAID-lib.github.io
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - muscat=2.5.0
+  - htmlmin2
+  - mkdocs
+  - mkdocs-click
+  - mkdocs-gen-files
+  - mkdocs-include-markdown-plugin
+  - mkdocs-literate-nav
+  - mkdocs-material
+  - mkdocstrings[python]
+  - mkdocs-bibtex
+  - marimo
+  - ipykernel
+  - pip
+  - pip:
+    - mkdocs-section-index
+    - git+https://github.com/PLAID-lib/plaid-ops.git@9c61a28aa4ba4f6ca14e9dc0c831660b261cd23c

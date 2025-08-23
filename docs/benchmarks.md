@@ -1,7 +1,7 @@
 # PLAID Benchmarks
 
 <div style="text-align:center;">
-<img src="../assets/images/plaid_benchmarks.png" class="align-center" width="60%"
+<img src="../assets/images/plaid_benchmarks.png" width="60%"
 alt="PLAID Benchmarks" />
 </div>
 
