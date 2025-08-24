@@ -74,7 +74,7 @@ $$
   </div>
 
   <div class="card">
-    <p><strong>KI-LS59</strong></p>
+    <p><strong>VKI-LS59</strong></p>
     <div class="card-badges">
     <a href="https://huggingface.co/spaces/PLAIDcompetitions/VKILS59Benchmark"><img src="https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm-dark.svg" alt="VKI-LS59_Be" style="height:30px;"/></a>
     </div>
