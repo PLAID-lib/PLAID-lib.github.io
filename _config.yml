@@ -57,7 +57,7 @@ plugins:
 
 author:
   # name   : "PLAID"
-  avatar : "assets/images/PLAID-logo.png"
+  avatar : "assets/images/plaid_logo2.png"
   bio    : "Physics-Learning AI Datamodel"
   links:
     - label: "arXiv paper"

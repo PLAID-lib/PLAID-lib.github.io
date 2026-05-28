@@ -5,7 +5,7 @@ classes: wide
 ---
 
 <div align="center">
-<img src="../assets/images/PLAID-large-logo.png" width="300">
+<img src="../assets/images/plaid_logo2.png" width="300">
 </div>
 
 
