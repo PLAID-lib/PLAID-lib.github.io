@@ -5,8 +5,8 @@ theme:
   font:
     text: PT Sans
     code: Fira Mono
-  logo: assets/images/PLAID-large-logo.png
-  favicon: assets/images/PLAID-logo.png
+  logo: assets/images/plaid_logo2.png
+  favicon: assets/images/plaid_logo2.png
   features:
     - navigation.instant
     - navigation.instant.prefetch
